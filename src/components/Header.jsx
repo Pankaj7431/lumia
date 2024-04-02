@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
@@ -32,12 +32,12 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-white border-b shadow-sm sticky top-0 z-40">
+    <div className="bg-white border-b shadow-sm sticky-top ">
       <header className="d-flex justify-content-between align-items-center mx-auto max-w-40">
         <div className="w-40 ms-5 ps-5 ">
           <a
             onClick={() => handleNavigate("Home")}
-            className="h3 text-warning text-uppercase py-2 mt-2 cursor-pointer text-decoration-none"
+            className="h3 text-gray text-uppercase py-2 mt-2 cursor-pointer text-decoration-none"
           >
             Lumia
           </a>
