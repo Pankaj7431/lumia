@@ -2,12 +2,11 @@ import React from "react";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 import NavbarDarkExample from "../hooks/NavbarDarkExample";
+
 const Header = () => {
-  const handleFocus = (event) => {
-    console.log('Input field is focused');
-  };
+  
   return (
-    <div className="bg-white border-b shadow-sm sticky-top ">
+    <div className="bg-white border-b shadow-sm sticky-top position-sticky"id="header">
       <header className="d-flex justify-content-between align-items-center mx-auto max-w-40">
         <div className="w-40 ms-5 ps-5 ">
           <Link
@@ -23,7 +22,7 @@ const Header = () => {
 
         <div className="">
           <ul className="d-flex list-unstyled px-2 ml-0">
-            <li className=" px-2 pt-4 h6" onFocus={handleFocus}>
+            <li className=" px-2 pt-4 h6">
               <Link
                 activeClass="active"
                 to="home"
@@ -59,7 +58,7 @@ const Header = () => {
 
             <li className="px-2 pt-4 h6 ">
               <Link
-                to="about"
+                to="testimonials"
                 spy={true}
                 smooth={true}
                 duration={100}

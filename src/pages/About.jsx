@@ -4,7 +4,7 @@ import { IoCheckmarkDone } from "react-icons/io5";
 import { ProgressBar } from "react-bootstrap";
 
 function ProgressBar1() {
-  return <ProgressBar now={100} />;
+  return <ProgressBar now={100}/>;
 }
 function ProgressBar2() {
   return <ProgressBar now={60} />;
@@ -24,9 +24,10 @@ function ProgressBar6() {
 
 export default function About() {
   return (
-    <div id="about" className="container mb-5 my-5" style={{margin:"100px"}}>
-      <div className="row">
-        <div className="col-lg-6">
+    <div id="about" className="container mb-5 my-5 position-sticky" >
+      <br /><br />
+      <div className="row my-5">
+        <div className="col-lg-6"style={{marginLeft: "10opx"}}>
           <img
             src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2V5fGVufDB8fDB8fHww"
             style={{
@@ -38,6 +39,7 @@ export default function About() {
             }}
           />
         </div>
+        {/* <div className="col-lg-1"></div> */}
         <div class="col-lg-5 pt-4 pt-lg-0 "style={{marginRight: "100px"}}>
           <h3>About Us</h3>
           <p>
@@ -134,21 +136,21 @@ export default function About() {
               <p className="skill">
                 PHP <p className="val float-end">100%</p>
               </p>
-              <ProgressBar1 />
+              <ProgressBar4 />
             </div>
 
             <div className="progress-2 mt-2">
               <p className="skill">
                 Wordpress/CMS <p className="val float-end">60%</p>
               </p>
-              <ProgressBar2 />
+              <ProgressBar5 />
             </div>
 
             <div className="progress-2 mt-2">
               <p className="skill">
                 Photoshop <p className="val float-end">80%</p>
               </p>
-              <ProgressBar3 />
+              <ProgressBar6 />
             </div>
           </div>
         </div>

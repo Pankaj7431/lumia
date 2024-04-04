@@ -1,17 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router,} from 'react-router-dom';
-import Home from './pages/Home.jsx'
-import Header from './components/Header.jsx'
+import Main from './pages/Main';
 
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header/>
-        <Home/>
-      </div>
-    </Router>
+    <div>
+        <Main/>
+    </div>
   );
 }
 
