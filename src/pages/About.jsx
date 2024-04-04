@@ -4,7 +4,7 @@ import { IoCheckmarkDone } from "react-icons/io5";
 import { ProgressBar } from "react-bootstrap";
 
 function ProgressBar1() {
-  return <ProgressBar now={100}/>;
+  return <ProgressBar now={100} />;
 }
 function ProgressBar2() {
   return <ProgressBar now={60} />;
@@ -19,7 +19,7 @@ function ProgressBar5() {
   return <ProgressBar now={91} />;
 }
 function ProgressBar6() {
-  return <ProgressBar now={87} />;
+  return <ProgressBar now={30} />;
 }
 
 export default function About() {
@@ -27,7 +27,7 @@ export default function About() {
     <div id="about" className="container mb-5 my-5 position-sticky" >
       <br /><br />
       <div className="row my-5">
-        <div className="col-lg-6"style={{marginLeft: "10opx"}}>
+        <div className="col-md-6"style={{marginLeft: "10opx"}}>
           <img
             src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2V5fGVufDB8fDB8fHww"
             style={{
@@ -113,7 +113,7 @@ export default function About() {
               <p className="skill">
                 HTML <p className="val float-end">100%</p>
               </p>
-              <ProgressBar1 />
+              <ProgressBar1/>
             </div>
 
             <div className="progress-2 mt-2">
@@ -134,21 +134,21 @@ export default function About() {
           <div className="col-lg-5 d-block">
             <div className="progress-1">
               <p className="skill">
-                PHP <p className="val float-end">100%</p>
+                PHP <p className="val float-end">72%</p>
               </p>
               <ProgressBar4 />
             </div>
 
             <div className="progress-2 mt-2">
               <p className="skill">
-                Wordpress/CMS <p className="val float-end">60%</p>
+                Wordpress/CMS <p className="val float-end">91%</p>
               </p>
               <ProgressBar5 />
             </div>
 
             <div className="progress-2 mt-2">
               <p className="skill">
-                Photoshop <p className="val float-end">80%</p>
+                Photoshop <p className="val float-end">30%</p>
               </p>
               <ProgressBar6 />
             </div>

@@ -7,14 +7,14 @@ const Header = () => {
   
   return (
     <div className="bg-white border-b shadow-sm sticky-top position-sticky"id="header">
-      <header className="d-flex justify-content-between align-items-center mx-auto max-w-40">
-        <div className="w-40 ms-5 ps-5 ">
+      <header className="d-flex justify-between align-items-center mx-auto max-w-40">
+        <div className="w-50 ms-5 ps-5 ">
           <Link
             to="home"
             spy={true}
             smooth={true}
             duration={100}
-            className="h3 text-gray text-uppercase py-2 mt-2 cursor-pointer text-decoration-none"
+            className="h3 text-gray text-uppercase py-2 mt-2 mx-5 px-5 cursor-pointer text-decoration-none"
           >
             Lumia
           </Link>

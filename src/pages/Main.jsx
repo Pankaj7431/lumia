@@ -14,7 +14,7 @@ import Portfolio from "./Portfolio.jsx";
 
 export default function Main() {
   return (
-    <div className=""  id="home">
+    <div className="text-xl"  id="home">
       <Header/>
       <Home/>
       <Content/>

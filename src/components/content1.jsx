@@ -22,7 +22,7 @@ export default function content1() {
                 padding: "5px",
               }}
             />
-            <div> <span   style={{fontSize: "30px", fontWeight:"bolder", }}><CountUp end={232}/></span></div>
+            <div> <span   style={{fontSize: "30px", fontWeight:"bolder", }}><CountUp end={23222}/></span></div>
             <div> <p>Happy Clients</p></div>
            
           </div>
@@ -41,7 +41,7 @@ export default function content1() {
                 padding: "5px",
               }}
             />
-            <div> <span   style={{fontSize: "30px", fontWeight:"bolder", }}><CountUp end={232}/></span></div>
+            <div> <span   style={{fontSize: "30px", fontWeight:"bolder", }}><CountUp end={232223}/></span></div>
             <div> <p>Happy Clients</p></div>
            
           </div>
@@ -60,7 +60,7 @@ export default function content1() {
                 padding: "5px",
               }}
             />
-            <div> <span   style={{fontSize: "30px", fontWeight:"bolder", }}><CountUp end={232}/></span></div>
+            <div> <span   style={{fontSize: "30px", fontWeight:"bolder", }}><CountUp end={232132}/></span></div>
             <div> <p>Happy Clients</p></div>
            
           </div>
