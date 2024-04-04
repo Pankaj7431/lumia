@@ -34,7 +34,7 @@ a:focus {
   color: white;
 }
 
-span{
+.span1{
   text-decoration: underline;
   text-decoration-color: aqua;
 }
@@ -46,18 +46,18 @@ span{
   text-align: center;
   padding-bottom: 30px;
 }
-.section-title h1::before {
+.section-title h2::before {
   content: "";
   position: absolute;
   display: block;
   width: 120px;
   height: 2px;
   bottom: 100px;
-  background: #585858;
+  background: #a0a0a0;
   left: calc(50% - 60px);
 }
 
-.section-title h1::after {
+.section-title h2::after {
   content: "";
   position: absolute;
   display: block;
@@ -73,7 +73,7 @@ span{
   display: block;
   width: 120px;
   height: 2px;
-  background: #585858;
+  background: #afafaf;
 
   left: calc(50% - 60px);
 }
@@ -99,6 +99,11 @@ span{
 p {
   text-transform: uppercase;
   font-size: small;
+}
+.purecounter {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #34c2ff;
 }
 
 @media (max-width: 768px) {
