@@ -1,17 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 import NavbarDarkExample from "../hooks/NavbarDarkExample";
-
-
 const Header = () => {
-  const navigate = useNavigate();
-
-  const handleNavigate = (route) => {
-    navigate(route);
+  const handleFocus = (event) => {
+    console.log('Input field is focused');
   };
-
   return (
     <div className="bg-white border-b shadow-sm sticky-top ">
       <header className="d-flex justify-content-between align-items-center mx-auto max-w-40">
@@ -20,6 +14,7 @@ const Header = () => {
             to="home"
             spy={true}
             smooth={true}
+            duration={100}
             className="h3 text-gray text-uppercase py-2 mt-2 cursor-pointer text-decoration-none"
           >
             Lumia
@@ -28,12 +23,12 @@ const Header = () => {
 
         <div className="">
           <ul className="d-flex list-unstyled px-2 ml-0">
-            <li className=" px-2 pt-4 h6">
+            <li className=" px-2 pt-4 h6" onFocus={handleFocus}>
               <Link
                 activeClass="active"
                 to="home"
-                spy={true}
                 smooth={true}
+                duration={100}
                 className="text-gray text-decoration-none hover:text-blue-300 cursor-pointer"
               >
                 Home
@@ -42,8 +37,9 @@ const Header = () => {
             <li className="px-2 pt-4 h6 ">
               <Link
                 to="about"
-                spy={true}
+               
                 smooth={true}
+                duration={100}
                 className="text-gray text-decoration-none hover:text-blue-300 cursor-pointer"
               >
                 About
@@ -54,6 +50,7 @@ const Header = () => {
                 to="services"
                 spy={true}
                 smooth={true}
+                duration={100}
                 className="text-gray text-decoration-none hover:text-blue-300 cursor-pointer"
               >
                 Services
@@ -65,26 +62,21 @@ const Header = () => {
                 to="about"
                 spy={true}
                 smooth={true}
+                duration={100}
                 className="text-gray text-decoration-none hover:text-blue-300 cursor-pointer"
               >
                 Testimonials
               </Link>
             </li>
             <li className="px-2 pt-4 h6 dropdown">
-              <Link
-                to="Dropdown"
-                spy={true}
-                smooth={true}
-                className="text-gray text-decoration-none hover:text-blue-300 cursor-pointer"
-              >
-                <NavbarDarkExample />
-              </Link>
+            <li><a href=""><NavbarDarkExample /></a></li>
             </li>
             <li className="px-2 pt-4 h6 ">
               <Link
                 to="contacts"
                 spy={true}
                 smooth={true}
+                duration={100}
                 className="text-gray text-decoration-none hover:text-blue-300 focus:text-blue-300 cursor-pointer"
               >
                 Contacts

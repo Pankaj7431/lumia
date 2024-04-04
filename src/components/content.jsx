@@ -13,7 +13,7 @@ export default function About() {
               style={{
                 height: "75px",
                 width: "75px",
-                color: "rgb(153, 255, 255)",
+                color: "rgb(0, 102, 255)",
                 margin: "10px",
                 background: "rgb(204, 204, 204,0.3)",
                 borderRadius: "50%",
@@ -33,7 +33,7 @@ export default function About() {
               style={{
                 height: "75px",
                 width: "75px",
-                color: "rgb(153, 255, 255)",
+                color: "rgb(0, 102, 255)",
                 margin: "10px",
                 background: "rgb(204, 204, 204,0.3)",
                 borderRadius: "50%",
@@ -53,7 +53,7 @@ export default function About() {
               style={{
                 height: "75px",
                 width: "75px",
-                color: "rgb(153, 255, 255)",
+                color: "rgb(0, 102, 255)",
                 margin: "10px",
                 background: "rgb(204, 204, 204,0.3)",
                 borderRadius: "50%",

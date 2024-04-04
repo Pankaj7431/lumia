@@ -42,14 +42,18 @@ span{
   text-align: center;
   padding-bottom: 30px;
 }
+.section-title1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
 .section-title h1::before {
   content: "";
   position: absolute;
   display: block;
   width: 120px;
   height: 2px;
-  background: #585858;
   bottom: 100px;
+  background: #585858;
   left: calc(50% - 60px);
 }
 
@@ -63,6 +67,26 @@ span{
   bottom: 100px;
   left: calc(50% - 20px);
 }
+.section-title1 h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #585858;
+
+  left: calc(50% - 60px);
+}
+
+.section-title1 h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #3498db;
+  left: calc(50% - 20px);
+}
 
 .icon1 {
   box-sizing: border-box;
@@ -71,4 +95,23 @@ span{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   border-radius: 2px;
+}
+p {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens smaller than or equal to 768px */
+  #home {
+    height: 300px;
+    margin: auto;
+  }
+ .text-overlay {
+    padding: 10px;
+  }
+ .section-title {
+    margin-top: 20px;
+  }
+  
 }

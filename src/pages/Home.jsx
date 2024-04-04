@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./About.jsx";
 import Content from "../components/content.jsx"
+import Services from "./Services.jsx";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       </div>
       <Content/>
       <About/>
+      <Services/>
     </div>
   );
 }
