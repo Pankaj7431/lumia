@@ -4,7 +4,7 @@ import { IoCheckmarkDone } from "react-icons/io5";
 import { ProgressBar } from "react-bootstrap";
 
 function ProgressBar1() {
-  return <ProgressBar now={100} />;
+  return <ProgressBar now={100}/>;
 }
 function ProgressBar2() {
   return <ProgressBar now={60} />;
@@ -113,7 +113,7 @@ export default function About() {
               <p className="skill">
                 HTML <p className="val float-end">100%</p>
               </p>
-              <ProgressBar1/>
+              <ProgressBar1 />
             </div>
 
             <div className="progress-2 mt-2">
