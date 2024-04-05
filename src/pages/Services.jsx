@@ -52,6 +52,7 @@ export default function Services() {
           </div>
         </div>
       </div>
+      <br /><br />
       <div className="row">
         <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
           <IoBagHandleOutline
@@ -90,6 +91,7 @@ export default function Services() {
           </div>
         </div>
       </div>
+      <br /><br />
       <div className="row">
         <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
           <IoBagHandleOutline

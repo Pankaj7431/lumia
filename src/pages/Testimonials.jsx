@@ -13,7 +13,6 @@ export default function Testimonials() {
   return (
 
     <div className="text-center" id="testimonials">
-      <br /><br />
       <div className="section-title1 mt-5 mb-5 p-0">
         <h2>Testimonials</h2>
         <h1></h1>
@@ -21,9 +20,9 @@ export default function Testimonials() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
           perferendis?
         </p>
-      </div>
-      <MDBContainer className="py-5">
-        <MDBCarousel showControls dark>
+      </div><br />
+      <MDBContainer className="py-5 my-5">
+        <MDBCarousel showControls light>
           <MDBCarouselItem className="active">
             <MDBContainer>
               <MDBRow className="text-center">
@@ -31,7 +30,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -50,7 +49,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -68,7 +67,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -92,7 +91,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -111,7 +110,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -129,7 +128,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -154,7 +153,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -173,7 +172,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />
@@ -191,7 +190,7 @@ export default function Testimonials() {
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp"
-                      className="rounded-circle shadow-1-strong"
+                      className="rounded shadow-1-strong"
                       width="150"
                       height="150"
                     />

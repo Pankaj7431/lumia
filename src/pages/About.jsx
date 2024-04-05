@@ -32,7 +32,7 @@ export default function About() {
             src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2V5fGVufDB8fDB8fHww"
             style={{
               width: "600px",
-              height: "415px",
+              height: "400px",
               borderRadius: "5px",
               boxShadow: "1px 1px 10px 0px gray",
               float:"inline-end"
@@ -40,7 +40,7 @@ export default function About() {
           />
         </div>
         {/* <div className="col-lg-1"></div> */}
-        <div class="col-lg-5 pt-4 pt-lg-0 "style={{marginRight: "100px"}}>
+        <div class="col-lg-5 "style={{marginRight: "100px"}}>
           <h3>About Us</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
