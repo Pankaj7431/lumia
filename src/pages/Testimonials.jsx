@@ -12,6 +12,7 @@ export default function Testimonials() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
           perferendis?
         </p>
+        <p>Hello</p>
       </div>
     </div>
   );
