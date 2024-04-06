@@ -29,12 +29,12 @@ export default function About() {
       <div className="row my-5">
         <div className="col-md-6"style={{marginLeft: "10opx"}}>
           <img
-            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2V5fGVufDB8fDB8fHww"
+            src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/about.jpg"
             style={{
-              width: "600px",
-              height: "400px",
-              borderRadius: "5px",
-              boxShadow: "1px 1px 10px 0px gray",
+              width: "650px",
+              height: "450px",
+              // borderRadius: "5px",
+              // boxShadow: "1px 1px 10px 0px gray",
               float:"inline-end"
             }}
           />
