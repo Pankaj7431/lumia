@@ -78,7 +78,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="px-2 pt-4 h6 dropdown">
-            <li><a href=""><NavbarDarkExample /></a></li>
+            <NavbarDarkExample/>
             </li>
             <li className="px-2 pt-4 h6 ">
               <Link
