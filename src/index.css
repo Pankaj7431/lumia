@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -6,16 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    monospace;  
 }
 a {
   color: black;
   text-decoration: none;
+}
+.navbar ul li{
+  font-size: 18px;
 }
 
 a:hover {
@@ -36,7 +38,7 @@ a:focus {
   color: white;
 }
 
-.span1{
+.span1 {
   text-decoration: underline;
   text-decoration-color: aqua;
 }
@@ -103,46 +105,53 @@ p {
   font-size: small;
 }
 
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #afbbad;
-    border-radius: 5px;
-    text-align: center;
-    color: #287aff;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #afbbad;
+  border-radius: 5px;
+  text-align: center;
+  color: #287aff;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.filter-button:hover
-{
-    font-size: 18px;
-    border: 1px solid #1481d4;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #0c447b;
-
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #1481d4;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0c447b;
 }
-.btn-default:active .filter-button:active
-{
-    background-color: #0d09ff;
-    color: rgb(255, 255, 255);
+.btn-default:active .filter-button:active {
+  background-color: #0d09ff;
+  color: rgb(255, 255, 255);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-top: 120px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
 }
 
+.portfolio-img:hover .overlay {
+  opacity: 1;
+  transition: .2s ease-out;
+}
 
-@media (max-width: 768px) {
-  /* Styles for screens smaller than or equal to 768px */
-  #home {
-    height: 300px;
-    margin: auto;
-  }
- .text-overlay {
-    padding: 10px;
-  }
- .section-title {
-    margin-top: 20px;
-  }
-  
+.portfolio-img:hover {
+  filter: brightness(70%);
+  transition: 0.5s ease-out;
+}
+
+.icon{
+color: black !important;
+background-color: white !important;
+margin: 10px;
+padding: 5px;
+font-size: 40px;
 }

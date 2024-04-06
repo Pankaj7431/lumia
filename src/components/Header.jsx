@@ -7,8 +7,8 @@ const Header = () => {
   
   return (
     <div className="bg-white border-b shadow-sm sticky-top position-sticky"id="header">
-      <header className="d-flex justify-between align-items-center mx-auto max-w-40">
-        <div className="w-50 ms-5 ps-5 ">
+      <header className="d-flex justify-between align-items-center mx-auto max-w-30">
+        <div className="w-40 px-5" style={{marginRight:"250px"}}>
           <Link
             to="home"
             spy={true}
@@ -20,9 +20,9 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="">
+        <div className="navbar w-50 mx5">
           <ul className="d-flex list-unstyled px-2 ml-0">
-            <li className=" px-2 pt-4 h6">
+            <li className="px-2 pt-4 h6">
               <Link
                 activeClass="active"
                 to="home"
@@ -78,7 +78,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="px-2 pt-4 h6 dropdown">
-            <NavbarDarkExample/>
+            <li><a href=""><NavbarDarkExample /></a></li>
             </li>
             <li className="px-2 pt-4 h6 ">
               <Link

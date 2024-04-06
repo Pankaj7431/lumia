@@ -7,6 +7,7 @@ import Content1 from "../components/content1.jsx";
 import Home from "./Home.jsx";
 import Testimonials from "./Testimonials.jsx";
 import Portfolio from "./Portfolio.jsx";
+import Contacts from "./Contacts.jsx";
 
 
 
@@ -23,6 +24,7 @@ export default function Main() {
       <Services/>
       <Portfolio/>
       <Testimonials/>
+      <Contacts/>
         </div>
   );
 }

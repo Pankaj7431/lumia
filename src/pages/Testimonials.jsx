@@ -4,7 +4,6 @@ import {
   MDBCarouselItem,
   MDBCol,
   MDBIcon,
-  MDBTypography,
   MDBContainer,
   MDBRow,
 } from "mdb-react-ui-kit";
@@ -13,6 +12,8 @@ export default function Testimonials() {
   return (
 
     <div className="text-center" id="testimonials">
+      <br /><br />br
+      
       <div className="section-title1 mt-5 mb-5 p-0">
         <h2>Testimonials</h2>
         <h1></h1>
@@ -20,7 +21,7 @@ export default function Testimonials() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
           perferendis?
         </p>
-      </div><br />
+      </div>
       <MDBContainer className="py-5 my-5">
         <MDBCarousel showControls light>
           <MDBCarouselItem className="active">
@@ -213,6 +214,8 @@ export default function Testimonials() {
         </MDBCarousel>
 
       </MDBContainer>
+      <br /><br />
     </div>
+    
   );
 }
