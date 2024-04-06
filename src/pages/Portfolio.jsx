@@ -1,20 +1,21 @@
-import React, {useState} from "react";
-import Data from "../data"
+import React, { useState } from "react";
+import Data from "../data";
+import { FaBabyCarriage, FaBlender } from "react-icons/fa";
 
 export default function Portfolio() {
-    const [items, setItems] = useState(Data);
-    const [active, setActive] = useState(false);
-    const filterItem = (categItem) => {
-        if (active) {
-            setActive(false);
-          }
-      const updateItems = Data.filter((curElem) => {
-        return curElem.category === categItem;
-      });
-  
-      setItems(updateItems);
-      setActive(true);
-    };
+  const [items, setItems] = useState(Data);
+  const [active, setActive] = useState(false);
+  const filterItem = (categItem) => {
+    if (active) {
+      setActive(false);
+    }
+    const updateItems = Data.filter((curElem) => {
+      return curElem.category === categItem;
+    });
+
+    setItems(updateItems);
+    setActive(true);
+  };
   return (
     <div className="text-center" id="portfolio">
       <br />
@@ -65,30 +66,77 @@ export default function Portfolio() {
           
         </ul> */}
         <div align="center">
-            <button className="btn btn-default filter-button" onClick={() => setItems(Data)} data-filter="all">All</button>
-            <button className="btn btn-default filter-button" onClick={()=> filterItem("app")} data-filter="hdpe">Card</button>
-            <button className="btn btn-default filter-button" onClick={()=> filterItem("card")} data-filter="sprinkle">Web</button>
-            <button className="btn btn-default filter-button" onClick={()=> filterItem("web")} data-filter="spray">App</button>
+          <button
+            className="btn btn-default filter-button"
+            onClick={() => setItems(Data)}
+            data-filter="all"
+          >
+            All
+          </button>
+          <button
+            className="btn btn-default filter-button"
+            onClick={() => filterItem("app")}
+            data-filter="hdpe"
+          >
+            Card
+          </button>
+          <button
+            className="btn btn-default filter-button"
+            onClick={() => filterItem("card")}
+            data-filter="sprinkle"
+          >
+            Web
+          </button>
+          <button
+            className="btn btn-default filter-button"
+            onClick={() => filterItem("web")}
+            data-filter="spray"
+          >
+            App
+          </button>
         </div>
-        <br/>
+        <br />
       </div>
       <div className="container-fluid mt-4">
         <div className="row">
           {items.map((elem) => {
-            const { id, name, image, description, } = elem;
+            const { id, name, image, description } = elem;
 
             return (
-              <div className="col-lg-4" id={id}>
-                <div className="card mb-3 px-0 d-block" style={{textAlign:"center",marginLeft:"100px"}}>
+              <div
+                className="portfolio-container col-md-6 col-lg-4 filter-web wow fadeInUp px-0"
+                style={{ position: "relative" }}
+                id={id}
+              >
+                <div
+                  className="card mb-3 d-block"
+                  style={{
+                    textAlign: "center",
+                    marginLeft: "100px",
+                    width: "65%",
+                  }}
+                >
                   <div className="row d-block">
-                    <div className="col-lg-12">
-                      <img className="img-fluid"src={image} alt={name} style={{ height: '320px' }} filter hdpe/>
+                    <div className="portfolio-img col-lg-12">
+                      <img
+                        className="portfolio-img img-fluid "
+                        src={image}
+                        alt={name}
+                        style={{ height: "320px", filter: "" }}
+                      />
+                      <div className="overlay">
+                        <a href="">
+                          <FaBabyCarriage className="icon" />
+                        </a>
+                        <a href="">
+                          <FaBlender className="icon" />
+                        </a>
+                      </div>
                     </div>
                     <div className="col-sm-16">
                       <div className="card-body">
                         <h5 className="card-title mb-0">{name}</h5>
                         <p className="card-text">{description}</p>
-                        
                       </div>
                     </div>
                   </div>
@@ -97,7 +145,8 @@ export default function Portfolio() {
             );
           })}
         </div>
-      </div><br />
+      </div>
+      <br />
     </div>
   );
 }
