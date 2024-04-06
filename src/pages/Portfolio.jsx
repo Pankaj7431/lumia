@@ -1,23 +1,20 @@
-import React, { useState } from "react";
-import Data from "../data";
-import { FaBabyCarriage, FaBlender } from "react-icons/fa";
-
+import React, {useState} from "react";
+import Data from "../data"
 
 export default function Portfolio() {
+    const [items, setItems] = useState(Data);
+    const [active, setActive] = useState(false);
+    const filterItem = (categItem) => {
+        if (active) {
+            setActive(false);
+          }
+      const updateItems = Data.filter((curElem) => {
+        return curElem.category === categItem;
+      });
   
-  const [items, setItems] = useState(Data);
-  const [active, setActive] = useState(false);
-  const filterItem = (categItem) => {
-    if (active) {
-      setActive(false);
-    }
-    const updateItems = Data.filter((curElem) => {
-      return curElem.category === categItem;
-    });
-
-    setItems(updateItems);
-    setActive(true);
-  };
+      setItems(updateItems);
+      setActive(true);
+    };
   return (
     <div className="text-center" id="portfolio">
       <br />
@@ -32,35 +29,46 @@ export default function Portfolio() {
       </div>
       <br />
       <div className="container">
+        {/* <ul className="nav nav-pills justify-content-center  col-sm-6">
+        <li className="nav-item">
+            <a
+              className={active ? "nav-link" : "nav-link active  mx-2"}
+              onClick={() => setItems(Data)}
+            >
+              All
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={active ? "nav-link" : "nav-link active mx-2"}
+              onClick={() => filterItem("app")}
+            >
+              App
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={active ? "nav-link" : "nav-link active mx-2"}
+              onClick={() => filterItem("card")}
+            >
+              Card
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={active ? "nav-link" : "nav-link active mx-2"}
+              onClick={() => filterItem("web")}
+            >
+              Web
+            </a>
+          </li>
+          
+        </ul> */}
         <div align="center">
-          <button
-            className="btn btn-default filter-button"
-            onClick={() => setItems(Data)}
-            data-filter="all"
-          >
-            All
-          </button>
-          <button
-            className="btn btn-default filter-button"
-            onClick={() => filterItem("app")}
-            data-filter="hdpe"
-          >
-            Card
-          </button>
-          <button
-            className="btn btn-default filter-button"
-            onClick={() => filterItem("card")}
-            data-filter="sprinkle"
-          >
-            Web
-          </button>
-          <button
-            className="btn btn-default filter-button"
-            onClick={() => filterItem("web")}
-            data-filter="spray"
-          >
-            App
-          </button>
+            <button className="btn btn-default filter-button" onClick={() => setItems(Data)} data-filter="all">All</button>
+            <button className="btn btn-default filter-button" onClick={()=> filterItem("app")} data-filter="hdpe">Card</button>
+            <button className="btn btn-default filter-button" onClick={()=> filterItem("card")} data-filter="sprinkle">Web</button>
+            <button className="btn btn-default filter-button" onClick={()=> filterItem("web")} data-filter="spray">App</button>
         </div>
         <br />
       </div>
