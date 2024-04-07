@@ -27,6 +27,7 @@ export default function Home() {
       <div className="section-title mt-5 mb-5 p-0">
         <h1>"What We Do"</h1>
         <h2></h2>
+        <br /><br />
         <p className="pt-3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
           perferendis?

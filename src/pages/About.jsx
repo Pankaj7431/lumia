@@ -39,7 +39,7 @@ export default function About() {
             }}
           />
         </div>
-        {/* <div className="col-lg-1"></div> */}
+
         <div class="col-lg-5 "style={{marginRight: "100px"}}>
           <h3>About Us</h3>
           <p>
