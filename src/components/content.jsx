@@ -10,11 +10,11 @@ export default function About() {
             style={{
               height: "75px",
               width: "75px",
-              color: "rgb(0, 102, 255)",
+              color: "rgb(52, 152, 219)",
+              backgroundColor: "rgb(234, 244, 251)",
               margin: "10px",
-              background: "rgb(204, 204, 204,0.3)",
               borderRadius: "50%",
-              padding: "5px",
+              padding: "15px",
             }}
           />
           <div style={{ margin: "10px" }}>
@@ -30,11 +30,11 @@ export default function About() {
             style={{
               height: "75px",
               width: "75px",
-              color: "rgb(0, 102, 255)",
+              color: "rgb(52, 152, 219)",
               margin: "10px",
-              background: "rgb(204, 204, 204,0.3)",
+              backgroundColor: "rgb(234, 244, 251)",
               borderRadius: "50%",
-              padding: "5px",
+              padding: "15px",
             }}
           />
           <div style={{ margin: "10px" }}>
@@ -50,11 +50,11 @@ export default function About() {
             style={{
               height: "75px",
               width: "75px",
-              color: "rgb(0, 102, 255)",
+              color: "rgb(52, 152, 219)",
               margin: "10px",
-              background: "rgb(204, 204, 204,0.3)",
+              backgroundColor: "rgb(234, 244, 251)",
               borderRadius: "50%",
-              padding: "5px",
+              padding: "15px",
             }}
           />
           <div style={{ margin: "10px" }}>

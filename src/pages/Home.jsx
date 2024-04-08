@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className=""  id="home">
 
-      <div className="mb-0 fixed" style={{ height: "500px", width: "100%" }}>
+      <div className="mb-0" style={{ height: "auto", width: "100%" }}>
         <img
           src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="img-fluid d-block "
@@ -19,7 +19,7 @@ export default function Home() {
           <h5 className="text-gray-800 mb-4">
             We are team of talented designers making websites with Bootstrap
           </h5>
-          <a name="" id="" className="btn btn-primary" href="#" role="button">
+          <a name="" id="" className="btn hover:text-lightblue" href="#" role="button" style={{ color:"white",backgroundColor: "rgb(52, 152, 219)"}}>
             Get Started
           </a>
         </div>

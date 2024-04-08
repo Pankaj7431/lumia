@@ -19,7 +19,7 @@ export default function Portfolio() {
     setActive(true);
   };
   return (
-    <div className="text-center" id="portfolio">
+    <div className="text-center lightgray " id="portfolio">
       <br />
       <br />
       <div className="section-title1 mt-5 mb-5 p-0">

@@ -8,16 +8,20 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif ,source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;  
+.progress-container {
+  padding: auto;
 }
+.progress-bar {
+ background-color: rgb(52, 152, 219) !important;
+
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -105,14 +109,20 @@ a:focus {
   background: #3498db;
   left: calc(50% - 20px);
 }
+.btn:hover {
+  background-color: #3498db !important;
+}
 
 .icon1 {
   box-sizing: border-box;
-  border: 1px solid lightblue;
   padding: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   border-radius: 2px;
+}
+.icon1:hover {
+  box-sizing: border-box;
+  border: 1px solid lightblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 p {
   text-transform: uppercase;
@@ -173,11 +183,27 @@ font-size: 40px;
 top: -50%;
 }
 
-@media (max-width: 1200px) {
+
+@media (max-width: 989px) {
   body {
     overflow-x: hidden;
+    padding: auto;
+    margin: auto;
   }
   .text-overlay {
     top: -1;
   }
+}
+
+@media (min-width: 768px) {
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}
+}
+#header {
+  height: 70px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: #fff;
 }

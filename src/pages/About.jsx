@@ -24,23 +24,23 @@ function ProgressBar6() {
 
 export default function About() {
   return (
-    <div id="about" className="container mb-5 my-5 position-sticky" >
+    <div id="about" className="container1 mb-5 my-5 bg-light p-auto" >
       <br /><br />
-      <div className="d-flex row my-5">
-        <div className="col-sm-6 rounded" style={{marginLeft: "10opx"}}>
+      <div className="d-flex p-auto m-auto row my-5">
+        <div className="col-sm-5 rounded">
           <img
             src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/about.jpg"
             style={{
-              width: "650px",
-              height: "450px",
-              // borderRadius: "5px",
-              // boxShadow: "1px 1px 10px 0px gray",
+              width: "100%",
+              height: "100%",
+              borderRadius: "5px",
+
               float:"inline-end"
             }}
           />
         </div>
 
-        <div class="col-sm-5 "style={{marginRight: "100px"}}>
+        <div class="col-sm-6">
           <h3>About Us</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -52,7 +52,7 @@ export default function About() {
               <IoCheckmarkDone
                 style={{
                   height: "30px",
-                  color: "rgb(0,102,255)",
+                  color: "rgb(52, 152, 219)",
                   width: "40px",
                 }}
               />{" "}
@@ -63,20 +63,20 @@ export default function About() {
               <IoCheckmarkDone
                 style={{
                   height: "30px",
-                  color: "rgb(0,102,255)",
+                  color: "rgb(52, 152, 219)",
                   width: "40px",
                 }}
               />{" "}
               Duis aute irure dolor in reprehenderit in voluptate velit.
             </li>
           </ul>
-          <div class="row icon-boxes ">
+          <div class="row icon-boxes d-flex">
             <div class="col-md-6 align-items-center">
               <FaBlender
                 style={{
                   height: "50px",
                   width: "50px",
-                  color: "rgb(0, 102, 255)",
+                  color: "rgb(52, 152, 219)",
                   margin: "10px",
                   padding: "5px",
                 }}
@@ -92,7 +92,7 @@ export default function About() {
                 style={{
                   height: "50px",
                   width: "50px",
-                  color: "rgb(0, 102, 255)",
+                  color: "rgb(52, 152, 219)",
                   margin: "10px",
                   padding: "5px",
                 }}
@@ -107,9 +107,9 @@ export default function About() {
         </div>
       </div>
       <div className="progress-container mt-2 pt-5">
-        <div className="row">
+        <div className="row  mx-5 px-2">
           <div className="col-lg-5 d-block pr-5">
-            <div className="progress-1">
+            <div className="progress-2">
               <p className="skill">
                 HTML <p className="val float-end">100%</p>
               </p>
@@ -155,6 +155,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <br /><br />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { BsCardChecklist } from "react-icons/bs";
 
 export default function Services() {
   return (
-    <div id="services" style={{marginBottom:"100px"}}>
+    <div id="services" className="bg-light text-left" style={{marginBottom:"100px"}}>
        <br /><br />
       <div className="section-title1 mt-5 mb-5 p-0">
         <h2>Services</h2>
@@ -15,7 +15,7 @@ export default function Services() {
         </p>
       </div>
       <div className="row">
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+      <div className="col-lg-5 d-flex mx-auto ">
           <IoBagHandleOutline
             style={{
               height: "75px",
@@ -33,7 +33,7 @@ export default function Services() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
           </div>
         </div>
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+        <div className="col-lg-5 d-flex mx-auto ">
           <BsCardChecklist
             style={{
               height: "75px",
@@ -54,7 +54,7 @@ export default function Services() {
       </div>
       <br /><br />
       <div className="row">
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+        <div className="col-lg-5 d-flex mx-auto px-5">
           <IoBagHandleOutline
             style={{
               height: "75px",
@@ -72,7 +72,7 @@ export default function Services() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
           </div>
         </div>
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+        <div className="col-lg-5 d-flex mx-auto ">
           <BsCardChecklist
             style={{
               height: "75px",
@@ -93,7 +93,7 @@ export default function Services() {
       </div>
       <br /><br />
       <div className="row">
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+        <div className="col-lg-5 d-flex mx-auto ">
           <IoBagHandleOutline
             style={{
               height: "75px",
@@ -111,7 +111,7 @@ export default function Services() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
           </div>
         </div>
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+        <div className="col-lg-5 d-flex mx-auto ">
           <BsCardChecklist
             style={{
               height: "75px",

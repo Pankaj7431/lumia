@@ -11,7 +11,7 @@ import {
 export default function Testimonials() {
   return (
 
-    <div className="text-center" id="testimonials">
+    <div className="text-center bg-light" id="testimonials">
       <br /><br />
       
     
