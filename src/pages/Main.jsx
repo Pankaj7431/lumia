@@ -12,7 +12,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 export default function Main() {
   return (
-    <div className="" id="home">
+    <div className="w-auto " id="home">
       <Header />
       <Home />
       <Content />

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className=""  id="home">
+    <div className="w-auto"  id="home">
 
       <div className="mb-0" style={{ height: "auto", width: "100%" }}>
         <img

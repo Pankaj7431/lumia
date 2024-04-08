@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 
@@ -8,25 +8,25 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif ,source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    sans-serif, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: auto;
   overflow-x: hidden;
 }
 .progress-container {
   padding: auto;
 }
 .progress-bar {
- background-color: rgb(52, 152, 219) !important;
-
+  background-color: rgb(52, 152, 219) !important;
 }
 
 a {
   color: black;
   text-decoration: none;
 }
-.navbar ul li{
+.navbar ul li {
   font-size: 18px;
 }
 .nav-link {
@@ -134,7 +134,7 @@ p {
   border: 1px solid #afbbad;
   border-radius: 5px;
   text-align: center;
-  color: #287aff;
+  color: rgb(52, 152, 219);
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
@@ -145,13 +145,12 @@ p {
   border-radius: 5px;
   text-align: center;
   color: #ffffff;
-  background-color: #0c447b;
+  background-color: rgb(52, 152, 219) !important;
 }
 .btn-default:active .filter-button:active {
   background-color: #0d09ff;
   color: rgb(255, 255, 255);
 }
-
 
 .overlay {
   position: absolute;
@@ -166,8 +165,8 @@ p {
 
 .portfolio-img:hover .overlay {
   opacity: 1;
-  color:white;
-  transition: .3s ease-out;
+  color: white;
+  transition: 0.3s ease-out;
 }
 
 .portfolio-img:hover {
@@ -175,14 +174,13 @@ p {
   transition: 0.5s ease-out;
 }
 
-.icon{
-color: black;
-margin: 10px;
-padding: 5px;
-font-size: 40px;
-top: -50%;
+.icon {
+  color: black;
+  margin: 10px;
+  padding: 5px;
+  font-size: 40px;
+  top: -50%;
 }
-
 
 @media (max-width: 989px) {
   body {
@@ -195,15 +193,13 @@ top: -50%;
   }
 }
 
-@media (min-width: 768px) {
-.container, .container-md, .container-sm {
+/* @media (min-width: 768px) {
+  .container-md,
+  .container-sm {
     max-width: 720px;
-}
-}
-#header {
-  height: 70px;
-  transition: all 0.5s;
-  z-index: 997;
-  transition: all 0.5s;
-  background: #fff;
+  }
+} */
+.navbar{
+  position: sticky !important;
+  top: 0;
 }
