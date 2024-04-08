@@ -2,27 +2,41 @@ import React from "react";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 import NavbarDarkExample from "../hooks/NavbarDarkExample";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
-  
   return (
-    <div className="bg-white border-b shadow-sm sticky-top position-sticky"id="header">
-      <header className="d-flex justify-between align-items-center mx-auto max-w-30">
-        <div className="w-40 px-5" style={{marginRight:"250px"}}>
-          <Link
-            to="home"
-            spy={true}
-            smooth={true}
-            duration={100}
-            className="h3 text-gray text-uppercase py-2 mt-2 mx-5 px-5 cursor-pointer text-decoration-none"
-          >
-            Lumia
-          </Link>
+    <>
+    
+    <nav className="navbar sticky-top navbar-expand-lg bg-light">
+      <div className="container-fluid">
+        <div className="navbar-header text-center">
+          <a href="">
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={100}
+              className="h1 text-gray text-uppercase py-2 mt-2 mx-5 px-5 cursor-pointer text-decoration-none"
+            >
+              Lumia
+            </Link>
+          </a>
         </div>
-
-        <div className="navbar w-50 mx5">
-          <ul className="d-flex list-unstyled px-2 ml-0">
-            <li className="px-2 pt-4 h6">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <GiHamburgerMenu />
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto w-100 justify-content-end">
+            <li className="px-2 pt-4 h6 active">
               <Link
                 activeClass="active"
                 to="home"
@@ -36,7 +50,6 @@ const Header = () => {
             <li className="px-2 pt-4 h6 ">
               <Link
                 to="about"
-               
                 smooth={true}
                 duration={100}
                 className="text-gray text-decoration-none hover:text-blue-300 cursor-pointer"
@@ -77,9 +90,12 @@ const Header = () => {
                 Testimonials
               </Link>
             </li>
-            <li className="px-2 pt-4 h6 dropdown">
-            <li><a href=""><NavbarDarkExample /></a></li>
+            <li className="h6 ">
+              <a href="" className="text-dark">
+                <NavbarDarkExample />
+              </a>
             </li>
+
             <li className="px-2 pt-4 h6 ">
               <Link
                 to="contacts"
@@ -107,13 +123,18 @@ const Header = () => {
               <FaLinkedin
                 className="mx-1"
                 style={{ color: "#a8adaa", fontSize: "18px" }}
-
               />
             </div>
+            <button
+              className="navbar-toggle border-0 text-center bg-light"
+              type="button"
+              data-toggle="collapse"
+            ></button>
           </ul>
         </div>
-      </header>
-    </div>
+      </div>
+    </nav>
+    </>
   );
 };
 

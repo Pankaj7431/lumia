@@ -2,7 +2,7 @@ import React from 'react'
 import NavDropdown from "react-bootstrap/NavDropdown";
 export default function NavbarDarkExample() {
   return (
-    <NavDropdown title="Dropdown" menuVariant="light" drop="">
+    <NavDropdown title="Dropdown" menuVariant="" color='black' drop="" className='mt-2 pt-2'>
       <NavDropdown.Item href="#action/3.1">
         <a href="">Action</a>
       </NavDropdown.Item>
@@ -14,7 +14,7 @@ export default function NavbarDarkExample() {
         title="Deep Dropdown"
         menuVariant="light"
         drop="end"
-        className="px-3 text-gray hover:text-danger w-auto"
+        className="px-3 text-gray w-auto"
       >
         <a href=""></a>
         <NavDropdown.Item eventKey="1">

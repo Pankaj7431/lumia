@@ -24,10 +24,9 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="section-title mt-5 mb-5 p-0">
-        <h1>"What We Do"</h1>
-        <h2></h2>
-        <br /><br />
+      <div className="section-title1 mt-5 mb-5 p-0">
+        <h2>What we do</h2>
+        <h1></h1>
         <p className="pt-3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
           perferendis?
