@@ -12,13 +12,13 @@ export default function Testimonials() {
   return (
 
     <div className="text-center" id="testimonials">
-      <br /><br />br
+      <br /><br />
       
     
-      <div className="section-title1 mt-5 mb-5 p-0">
+      <div className="section-title1 mt-5 mb-5 p-5">
         <h2>Testimonials</h2>
         <h1></h1>
-        <p className="pt-3">
+        <p className="pt-3 text-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
           perferendis?
         </p>

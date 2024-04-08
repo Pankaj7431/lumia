@@ -9,7 +9,7 @@ export default function content1() {
   return (
     <div>
       <div className="content1 d-flex mx-5 px-5 mt-5 row" style={{marginTop:"100px"}}>
-        <div className="col-lg-12 col-6">
+        <div className="col-lg-3 col-6">
         <div className="text-center px-5 py-5 rounder-circle d-block">
             <FaSmile
               style={{

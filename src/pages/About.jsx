@@ -26,8 +26,8 @@ export default function About() {
   return (
     <div id="about" className="container mb-5 my-5 position-sticky" >
       <br /><br />
-      <div className="row my-5">
-        <div className="col-lg-6 mb-5"style={{marginLeft: "10opx"}}>
+      <div className="d-flex row my-5">
+        <div className="col-sm-6 rounded" style={{marginLeft: "10opx"}}>
           <img
             src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/about.jpg"
             style={{
@@ -40,7 +40,7 @@ export default function About() {
           />
         </div>
 
-        <div class="col-lg-5 "style={{marginRight: "100px"}}>
+        <div class="col-sm-5 "style={{marginRight: "100px"}}>
           <h3>About Us</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

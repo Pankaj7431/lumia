@@ -172,3 +172,12 @@ padding: 5px;
 font-size: 40px;
 top: -50%;
 }
+
+@media (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  .text-overlay {
+    top: -2;
+  }
+}

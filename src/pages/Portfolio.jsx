@@ -88,7 +88,6 @@ export default function Portfolio() {
                       <img
                         className="portfolio-img img-fluid "
                         src={image}
-                        alt={name}
                         style={{ height: "320px", filter: "" }}
                       />
                       <div className="overlay">

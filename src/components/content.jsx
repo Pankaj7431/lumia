@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="d-flex justify-content-between text-center row px-5">
       <div className="col-sm-4">
-        <div className="icon1 text-center px-5 rounder-circle">
+        <div className="icon1 text-center px-5 rounder-circle d-block">
           <IoIosBasketball
             style={{
               height: "75px",
@@ -25,7 +25,7 @@ export default function About() {
         </div>
       </div>
       <div className=" col-sm-4">
-        <div className="icon1 text-center px-5 rounder-circle">
+        <div className="icon1 text-center px-5 rounder-circle d-block">
           <IoIosCash
             style={{
               height: "75px",
