@@ -4,10 +4,9 @@ import { IoIosBasketball, IoIosAperture, IoIosCash  } from "react-icons/io";
 export default function About() {
   return (
       <div
-        className="d-flex justify-content-between items-center mx-5 my-5"
-        style={{ height: "400px" }}
+        className="d-flex justify-content-between text-center row"
       >
-        <div className="">
+        <div className=" col-lg-3">
           <div className="icon1 text-center px-5 py-5 rounder-circle">
             <IoIosBasketball
               style={{
@@ -27,7 +26,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className=" col-lg-3">
           <div className="icon1 text-center px-5 py-5 rounder-circle">
             <IoIosCash
               style={{
@@ -47,7 +46,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className=" col-lg-3">
           <div className="icon1 text-center px-5 py-5 rounder-circle">
             <IoIosAperture
               style={{
@@ -67,6 +66,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <br />
 
     </div>
   )

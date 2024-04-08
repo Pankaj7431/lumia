@@ -91,7 +91,7 @@ const Header = () => {
                 Contacts
               </Link>
             </li>
-            <div className="mt-3 pt-1 mx-1 px-2 ">
+            <div className="mt-3 pt-1 px-2 ">
               <FaTwitter
                 className="mx-1 cursor-pointer"
                 style={{ color: "#a8adaa", fontSize: "18px" }}

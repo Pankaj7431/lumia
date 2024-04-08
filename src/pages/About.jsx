@@ -27,7 +27,7 @@ export default function About() {
     <div id="about" className="container mb-5 my-5 position-sticky" >
       <br /><br />
       <div className="row my-5">
-        <div className="col-md-6"style={{marginLeft: "10opx"}}>
+        <div className="col-lg-6 mb-5"style={{marginLeft: "10opx"}}>
           <img
             src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/about.jpg"
             style={{
