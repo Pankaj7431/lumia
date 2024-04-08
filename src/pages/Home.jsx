@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className=""  id="home">
 
-      <div className="mb-0" style={{ height: "500px", width: "100%" }}>
+      <div className="mb-0 fixed" style={{ height: "500px", width: "100%" }}>
         <img
           src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="img-fluid d-block "

@@ -35,6 +35,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">Anna Deynah</h5>
@@ -54,6 +55,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">John Doe</h5>
@@ -72,6 +74,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">John Doe</h5>
@@ -96,6 +99,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">John Doe</h5>
@@ -115,6 +119,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">Alex Rey</h5>
@@ -133,6 +138,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">Maria Kate</h5>
@@ -158,6 +164,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">Anna Deynah</h5>
@@ -177,6 +184,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">John Doe</h5>
@@ -195,6 +203,7 @@ export default function Testimonials() {
                       className="rounded shadow-1-strong"
                       width="150"
                       height="150"
+                      alt=""
                     />
                   </div>
                   <h5 className="mb-3">Maria Kate</h5>
