@@ -7,9 +7,9 @@ import { IoPeople } from "react-icons/io5";
 
 export default function content1() {
   return (
-    <div>
-      <div className="content1 d-flex mx-5 px-5 my-5 row" style={{ marginTop: "100px" }}>
-        <div className="col-lg-3 col-6">
+    <div className='flex flex-col gap-y-8 mx-5'> 
+      <div className="content1 d-flex px-5 my-5 row" style={{ marginTop: "100px" }}>
+        <div className="col-lg-3">
           <div className="text-center px-5 py-5 rounder-circle d-block">
             <FaSmile
               style={{
@@ -28,7 +28,7 @@ export default function content1() {
           </div>
 
         </div>
-        <div className="col-lg-3 col-6">
+        <div className="col-lg-3">
           <div className="text-center px-5 py-5 rounder-circle d-block">
             <FaBookJournalWhills
               style={{
@@ -47,7 +47,7 @@ export default function content1() {
           </div>
 
         </div>
-        <div className="col-lg-3 col-6">
+        <div className="col-lg-3">
           <div className="text-center px-5 py-5 rounder-circle d-block">
             <GiVrHeadset
               style={{
@@ -66,7 +66,7 @@ export default function content1() {
           </div>
 
         </div>
-        <div className="col-lg-3 col-6">
+        <div className="col-lg-3">
           <div className="text-center px-5 py-5 rounder-circle d-block">
             <IoPeople
               style={{

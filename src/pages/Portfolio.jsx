@@ -19,7 +19,7 @@ export default function Portfolio() {
     setActive(true);
   };
   return (
-    <div className="text-center lightgray " id="portfolio">
+    <div className="text-center bg-white mx-5" id="portfolio">
       <br />
       <br />
       <div className="section-title1 mt-5 mb-5 p-0">
@@ -71,7 +71,7 @@ export default function Portfolio() {
 
             return (
               <div
-                className="portfolio-container col-md-6 col-lg-4 filter-web wow fadeInUp px-0"
+                className="portfolio-container col-md-6 col-lg-4 filter-web wow fadeInUp px-3 "
                 style={{ position: "relative" }}
                 id={id}
               >

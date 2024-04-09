@@ -4,7 +4,7 @@ import { BsCardChecklist } from "react-icons/bs";
 
 export default function Services() {
   return (
-    <div id="services" className="bg-light text-left" style={{ marginBottom: "100px" }}>
+    <div id="services" className="bg-white text-left mx-5" style={{ marginBottom: "100px" }}>
       <br /><br />
       <div className="section-title1 mt-5 mb-5 p-0">
         <h2>Services</h2>

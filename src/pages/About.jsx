@@ -7,7 +7,7 @@ import { ProgressBar} from "react-bootstrap";
 export default function About() {
   return (
     
-    <div id="about" className="container1 mb-5 bg-light p-auto" >
+    <div id="about" className="container1 mb-5 p-auto" >
       <br /><br />
       <div className="d-flex p-auto m-auto row my-5">
         <div className="col-sm-5 rounded">

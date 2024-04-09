@@ -3,7 +3,7 @@ import { IoIosBasketball, IoIosAperture, IoIosCash } from "react-icons/io";
 
 export default function About() {
   return (
-    <div className="d-flex justify-content-between text-center row px-5 mb-5 w-auto">
+    <div className="d-flex justify-content-between text-center row px-5 py-5 w-auto bg-white">
       <div className="col-sm-4">
         <div className="icon1 text-center px-5 rounder-circle d-block">
           <IoIosBasketball
