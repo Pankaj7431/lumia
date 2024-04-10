@@ -4,8 +4,9 @@ import { BsCardChecklist } from "react-icons/bs";
 
 export default function Services() {
   return (
-    <div id="services" style={{marginBottom:"100px"}}>
-       <br /><br />
+    <div id="services" style={{ marginBottom: "100px" }}>
+      <br />
+      <br />
       <div className="section-title1 mt-5 mb-5 p-0">
         <h2>Services</h2>
         <h1></h1>
@@ -15,7 +16,10 @@ export default function Services() {
         </p>
       </div>
       <div className="row">
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+        <div
+          className="col-lg-5 col-sm-5 d-flex"
+          style={{ marginLeft: "100px" }}
+        >
           <IoBagHandleOutline
             style={{
               height: "75px",
@@ -30,7 +34,7 @@ export default function Services() {
           />
           <div style={{ margin: "20px" }}>
             <h3>Lorem, ipsum.</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
+            Lorem ipsum dolor
           </div>
         </div>
         <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
@@ -48,11 +52,11 @@ export default function Services() {
           />
           <div style={{ margin: "20px" }}>
             <h3>Lorem, ipsum.</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
+            Lorem ipsum dolor s
           </div>
         </div>
       </div>
-      <br /><br />
+  
       <div className="row">
         <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
           <IoBagHandleOutline
@@ -69,7 +73,7 @@ export default function Services() {
           />
           <div style={{ margin: "20px" }}>
             <h3>Lorem, ipsum.</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
+            Lorem ipsum dolor sit
           </div>
         </div>
         <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
@@ -87,13 +91,15 @@ export default function Services() {
           />
           <div style={{ margin: "20px" }}>
             <h3>Lorem, ipsum.</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
+            Lorem ipsum dolor sit
           </div>
         </div>
       </div>
-      <br /><br />
       <div className="row">
-        <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
+        <div
+          className="col-lg-5 col-sm-5 d-flex"
+          style={{ marginLeft: "100px" }}
+        >
           <IoBagHandleOutline
             style={{
               height: "75px",
@@ -108,7 +114,7 @@ export default function Services() {
           />
           <div style={{ margin: "20px" }}>
             <h3>Lorem, ipsum.</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
+            Lorem ipsum dolor
           </div>
         </div>
         <div className="col-lg-5 d-flex" style={{ marginLeft: "100px" }}>
@@ -126,10 +132,13 @@ export default function Services() {
           />
           <div style={{ margin: "20px" }}>
             <h3>Lorem, ipsum.</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus.
+            Lorem ipsum dolor s
           </div>
         </div>
-      </div><br /><br /><br />
+
+        <br />
+        <br />
+      </div>
     </div>
   );
 }
