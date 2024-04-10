@@ -19,7 +19,7 @@ export default function Portfolio() {
     setActive(true);
   };
   return (
-    <div className="text-center" id="portfolio">
+    <div className="text-center bg-white mx-5 px-5" id="portfolio">
       <br />
       <br />
       <div className="section-title1 mt-5 mb-5 p-0">
@@ -71,7 +71,7 @@ export default function Portfolio() {
 
             return (
               <div
-                className="portfolio-container col-md-6 col-lg-4 filter-web wow fadeInUp px-0"
+                className="portfolio-container col-lg-4 text-center"
                 style={{ position: "relative" }}
                 id={id}
               >
@@ -79,16 +79,16 @@ export default function Portfolio() {
                   className="card mb-3 d-block"
                   style={{
                     textAlign: "center",
-                    marginLeft: "100px",
-                    width: "65%",
+                    width: "100%",
+                   
                   }}
                 >
-                  <div className="row d-block">
-                    <div className="portfolio-img col-lg-12">
+                  <div className="row">
+                    <div className="portfolio-img col-lg-14">
                       <img
                         className="portfolio-img img-fluid "
                         src={image}
-                        style={{ height: "320px", filter: "" }}
+                        style={{ height: "100%",  borderRadius:"5px", filter: "", width:"100%", objectFit: "cover"}}
                       />
                       <div className="overlay">
                         <a href="">

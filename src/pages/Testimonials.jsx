@@ -11,7 +11,7 @@ import {
 export default function Testimonials() {
   return (
 
-    <div className="text-center" id="testimonials">
+    <div className="w-auto" style={{backgroundColor:"#f7fbfe"}} id="testimonials">
       <br /><br />
       
     
@@ -23,12 +23,12 @@ export default function Testimonials() {
           perferendis?
         </p>
       </div>
-      <MDBContainer className="py-5 my-5">
+      <MDBContainer className="py-5 my-5 bg-white ">
         <MDBCarousel showControls light>
           <MDBCarouselItem className="active">
             <MDBContainer>
               <MDBRow className="text-center">
-                <MDBCol lg="4" className="mb-5 mb-md-0">
+                <MDBCol lg="4" className="mb-5 mb-md-0 bg-white">
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"

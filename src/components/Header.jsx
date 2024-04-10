@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
     
-    <nav className="navbar sticky-top navbar-expand-lg bg-light">
+    <nav className="navbar sticky-top navbar-expand-lg bg-white" id="header">
       <div className="container-fluid">
         <div className="navbar-header text-center">
           <a href="">
@@ -109,7 +109,7 @@ const Header = () => {
             </li>
             <div className="mt-3 pt-1 px-2 ">
               <FaTwitter
-                className="mx-1 cursor-pointer"
+                className="mx-1"
                 style={{ color: "#a8adaa", fontSize: "18px" }}
               />
               <FaFacebook
