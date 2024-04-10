@@ -5,8 +5,8 @@ import { CiMobile3 } from "react-icons/ci";
 
 export default function Contacts() {
     return (
-        <div className="w-100 px-5 py-5" style={{ backgroundColor: "#f7fbfe" }} id="contacts">
-            <br />
+        <div className="w-100 px-5 py-5 mt-1" style={{ backgroundColor: "#f7fbfe" }} id="contacts">
+            <br /><br /><br />
             <div className="section-title1  p-0">
                 <h2>Contacts</h2>
                 <h1></h1>

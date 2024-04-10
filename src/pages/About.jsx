@@ -7,10 +7,10 @@ import { ProgressBar} from "react-bootstrap";
 export default function About() {
   return (
     
-    <div id="about" className="container1 mb-5 p-auto" >
+    <div id="about" className="container mb-5" >
       <br /><br />
-      <div className="d-flex p-auto m-auto row my-5">
-        <div className="col-sm-5 rounded">
+      <div className="d-flex row my-5">
+        <div className="col-md-6 rounded">
           <img
             src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/about.jpg"
             style={{
@@ -23,7 +23,7 @@ export default function About() {
           />
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <h3>About Us</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -33,10 +33,12 @@ export default function About() {
             <li>
               {" "}
               <IoCheckmarkDone
+              className="contact-icon p-1"
                 style={{
                   height: "30px",
                   color: "rgb(52, 152, 219)",
-                  width: "40px",
+                  width: "auto",
+                  borderRadius:"50%"
                 }}
               />{" "}
               Ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -44,10 +46,12 @@ export default function About() {
             <li>
               {" "}
               <IoCheckmarkDone
+              className="contact-icon"
                 style={{
                   height: "30px",
                   color: "rgb(52, 152, 219)",
-                  width: "40px",
+                  width: "auto",
+                  borderRadius:"50%"
                 }}
               />{" "}
               Duis aute irure dolor in reprehenderit in voluptate velit.
@@ -56,12 +60,14 @@ export default function About() {
           <div class="row icon-boxes d-flex">
             <div class="col-md-6 align-items-center">
               <FaBlender
+              className="contact-icon"
                 style={{
                   height: "50px",
                   width: "50px",
                   color: "rgb(52, 152, 219)",
                   margin: "10px",
                   padding: "5px",
+                  borderRadius:"10px"
                 }}
               />
               <h4>Corporis voluptates sit</h4>
@@ -72,12 +78,14 @@ export default function About() {
             </div>
             <div class="col-md-6 mt-4 mt-md-0">
               <FaBabyCarriage
+              className="contact-icon"
                 style={{
                   height: "50px",
                   width: "50px",
                   color: "rgb(52, 152, 219)",
                   margin: "10px",
                   padding: "5px",
+                  borderRadius:"10px"
                 }}
               />
               <h4>Ullamco laboris nisi</h4>

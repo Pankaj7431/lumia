@@ -109,7 +109,7 @@ const Header = () => {
             </li>
             <div className="mt-3 pt-1 px-2 ">
               <FaTwitter
-                className="mx-1 cursor-pointer"
+                className="mx-1"
                 style={{ color: "#a8adaa", fontSize: "18px" }}
               />
               <FaFacebook
