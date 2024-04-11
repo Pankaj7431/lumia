@@ -9,6 +9,8 @@ import Testimonials from "./Testimonials.jsx";
 import Portfolio from "./Portfolio.jsx";
 import Contacts from "./Contacts.jsx";
 import ScrollToTop from "react-scroll-to-top";
+import Footer from "./Footer.jsx";
+
 
 export default function Main() {
   return (
@@ -21,13 +23,14 @@ export default function Main() {
       <Services />
       <Portfolio />
       <Testimonials />
-      <Contacts />
+      <Contacts/>
+      <Footer/>
       <ScrollToTop
         smooth
         color="white"
         height="25"
         width="25"
-        style={{ backgroundColor: "#0099ff" }}
+        style={{ backgroundColor: "#3498db" }}
       />
     </div>
   );

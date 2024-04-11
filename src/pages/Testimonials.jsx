@@ -17,7 +17,7 @@ export default function Testimonials() {
     
       <div className="section-title1 mt-5 mb-5 p-5">
         <h2>Testimonials</h2>
-        <h1></h1>
+        <h1>.</h1>
         <p className="pt-3 text-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
           perferendis?

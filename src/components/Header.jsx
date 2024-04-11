@@ -110,26 +110,21 @@ const Header = () => {
             <div className="mt-3 pt-1 px-2 ">
               <FaTwitter
                 className="mx-1"
-                style={{ color: "#a8adaa", fontSize: "18px" }}
+                style={{ color: "#3498db", fontSize: "18px", cursor:"pointer"}}
               />
               <FaFacebook
                 className="mx-1"
-                style={{ color: "#a8adaa", fontSize: "18px" }}
+                style={{ color: "#3498db", fontSize: "18px", cursor:"pointer" }}
               />
               <FaInstagram
                 className="mx-1"
-                style={{ color: "#a8adaa", fontSize: "18px" }}
+                style={{ color: "#3498db", fontSize: "18px", cursor:"pointer" }}
               />
               <FaLinkedin
                 className="mx-1"
-                style={{ color: "#a8adaa", fontSize: "18px" }}
+                style={{ color: "#3498db", fontSize: "18px", cursor:"pointer" }}
               />
             </div>
-            <button
-              className="navbar-toggle border-0 text-center bg-light"
-              type="button"
-              data-toggle="collapse"
-            ></button>
           </ul>
         </div>
       </div>
